@@ -1,6 +1,6 @@
 package 배열1;
 
-public class 배열3 {
+public class 배열03 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

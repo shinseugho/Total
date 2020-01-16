@@ -64,7 +64,7 @@ class MovieVO{
       String actor;
 }
 
-public class 클래스변수1 {
+public class 클래스변수 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

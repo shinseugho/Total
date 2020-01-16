@@ -3,7 +3,7 @@ package 배열1;
 
 import java.util.Scanner;
 
-public class 배열7 {
+public class 배열07 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

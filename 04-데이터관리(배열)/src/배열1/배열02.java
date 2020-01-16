@@ -1,7 +1,7 @@
 package 배열1;
 import java.util.Scanner;
 
-public class 배열2 {
+public class 배열02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
