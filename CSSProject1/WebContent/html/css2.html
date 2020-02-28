@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+#t1 #aa{
+	background-color: cyan
+}
+#t2 #aa{
+	background-color: yellow
+}
+
+#t2 td{
+	text-align: right;
+}
+*{
+	font-family: 궁서체;
+	font-size: 8pt;
+}
+</style> 
+</head>
+<body>
+<!-- 
+	1) 선택자
+		태그		단일태그 		img{스타일}
+			       여러태그 		td, th, select{스타일}	
+		ID		단일id  		#id명{스타일}
+				여러id  		#aa, #bb{스타일}
+				계층구조 		#aa #bb{스타일}	
+		CLASS	단일class		.class명{스타일}
+				여러class 	.aa, .bb{}
+				계층구조		.aa .bb{스타일}
+		소속관계  				table > tr
+		가상선택자 				a:hover			
+-->
+	<table border=1 width=350 id=t1>
+		<tr id="aa">
+			<th>이름</th>
+			<th>주소</th>
+			<th>전화</th>
+		</tr>
+		<tr>
+			<td>홍길동</td>
+			<td>서울시</td>
+			<td>02-1111-1111</td>
+		</tr>
+	</table>
+	<table border=1 width=350 id=t2>
+		<tr id="aa">
+			<th>이름</th>
+			<th>주소</th>
+			<th>전화</th>
+		</tr>
+		<tr>
+			<td>심청이</td>
+			<td>경기도</td>
+			<td>031-1111-1111</td>
+		</tr>
+	</table>
+</body>
+</html>

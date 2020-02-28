@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+
+#quiz{
+	margin: 0px auto;
+}
+
+#quiz > .list {
+	width: 550px;
+	text-align: right;
+	color: blue;
+}
+
+#quiz > .list > .big {
+	width: 550px;
+	text-align: left;
+}
+
+#quiz > .list > .big > .subject{
+	text-align: left;
+	border-width: 0px 2px 2px 2px; 
+	border-color: black; 
+	border-style: solid;
+	overflow: hidden;
+}
+
+.subject > input{
+	margin-left: 5px;
+	float: left;
+}
+
+.subject > textarea{
+	margin-left: 5px;
+}
+
+ #quiz > .list > .submit{
+	width: 546px;
+	text-align: center;
+ 	border-width: 0px 2px 2px 2px; 
+	border-color: black; 
+	border-style: solid; 
+}

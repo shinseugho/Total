@@ -1,0 +1,250 @@
+@CHARSET "UTF-8";
+
+	*{
+		list-style-type: none;
+		text-decoration: none;
+		
+	}
+	
+	header > #top_nav{
+		/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ef6d00+0,ef6d00+62,fb9d23+100 */
+		background: #ef6d00; /* Old browsers */
+		background: -moz-linear-gradient(left,  #ef6d00 1%, #ef6d00 62%, #fb9d23 100%); /* FF3.6-15 */
+		background: -webkit-linear-gradient(left,  #ef6d00 1%,#ef6d00 62%,#fb9d23 100%); /* Chrome10-25,Safari5.1-6 */
+		background: linear-gradient(to right,  #ef6d00 1%,#ef6d00 62%,#fb9d23 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ef6d00', endColorstr='#fb9d23',GradientType=1 ); /* IE6-9 */
+		width: 100%;
+		border: 0px solid blue;
+		height: 24px;
+	}
+	
+	header > #top_nav > div{
+		font-size: 13px;
+		color: #FFFFFF;
+		font: bold; 
+		border: 0px solid red;
+	}
+	
+	header > #top_nav > div:NTH-CHILD(1) {
+	/* 공지 */
+		float: left;
+		width: 30px;
+		line-height: 24px;
+		padding: 0px 20px 0px 380px;
+	}
+	
+	header > #top_nav > div:NTH-CHILD(2) {
+	/* 긴급알림 */
+		float: left;
+		width: 60px;
+		line-height: 24px;
+	}
+	
+	header > #top_nav > div:NTH-CHILD(3){
+	/* 아래화살표 이미지 */	
+		float: right;
+		width: 20px;
+		line-height: 24px;
+		padding-right: 400px;
+	}
+	
+	header > #top_nav > div:NTH-CHILD(3) > img{
+	/* 아래화살표 이미지 */	
+		margin-top: 3.5px;
+	}
+	
+	header > #top_nav > div:NTH-CHILD(4){
+	/* 한국어 */	
+		float: right;
+		width: 45px;
+		line-height: 24px;	
+	}
+	
+	header > #top_nav > div:NTH-CHILD(5){
+	/* 지구 이미지 */	
+		float: right;
+		width: 20px;
+		line-height: 24px;
+	}
+	
+	header > #top_nav > div:NTH-CHILD(5) > img{
+	/* 지구 이미지 */	
+		margin-top: 3.5px;
+	}
+	
+	header > #top_nav > div:NTH-CHILD(6){
+	/* 로그인 */	
+		float: right;
+		width: 45px;
+		line-height: 24px;
+		margin-right: 20px; 
+	}
+	
+	header > #middle{
+		border: 0px solid red;
+		width: 100%;
+		height: 77px;
+		overflow: hidden;
+	}
+	
+	header > #middle > .middle_list{
+		border: 0px solid blue;
+		width: 1160px;
+		height: 75px;
+		margin: 0px auto;
+	}
+	
+	header > #middle > .middle_list > img{
+		border: 0px solid black;
+		width: 100px;
+		margin: 8px 0px;
+	}
+	
+	header > #middle > .middle_list > .list{
+		border: 0px solid aqua;
+		float: right; 
+		width: 1050px;
+		height: 75px;
+		line-height: 75px;
+	}
+	
+	header > #middle > .middle_list > .list > ul{
+		border: 0px solid olive;
+		height: 77px;
+		line-height: 77px;
+		margin: 0px auto;
+		padding: 0px;
+	}
+	
+	header > #middle > .middle_list > .list > ul > li{
+		float: left;
+		border: 0px solid orange;
+		width: 110px;
+		line-height: 75px;
+		text-align: center;
+		font-size: 18px;
+   		font-weight: 700;
+   		margin-right: 19px;
+	}
+	
+	header > #middle:AFTER {
+		content: "";
+		display: block;
+		width: 100%;
+		border-bottom: 1px solid #CCCCCC;
+	}
+	
+	header > #bottom_nav{
+		width: 1160px; 
+		height: 54px;
+		border: 0px solid red;
+		margin: 0px auto;
+		padding: 7px 0px;
+	}
+	
+	header > #bottom_nav > div{
+		height: 30px;
+		border: 0px solid blue;
+	}
+	
+ 	header > #bottom_nav > .search{
+		float: left;
+		width: 420px;
+		margin: 7px 0px;
+		border: 3px solid #ff9000;
+		margin-right: 5px;
+	}
+	
+	header > #bottom_nav > .search > .gbn_search{
+		float: left;
+		width: 374px;
+		border: 0px;
+		padding: 0px 10px;
+		outline: none;
+		height: 30px;
+		line-height: 30px;
+		border: 0px solid blue;
+	}	
+	
+	header > #bottom_nav > .search > button{
+		background: none;	
+		background-image: url(./img/search.png);
+		position: absolute;
+		width: 26px;
+		height: 26px;
+		border: 0;
+	}
+	
+	header > #bottom_nav > .bottom_list{
+		float: left;
+		width: 250px;
+		font-size: 14px;
+		color: #CCCCCC;
+	}
+	
+	header > #bottom_nav > .bottom_list > ul{
+		border: 0px olive solid;
+		height: 54px;
+		line-height: 54px;	
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	header > #bottom_nav > .bottom_list > ul > li{
+		float: left;
+		border: 0px orange solid;
+		text-align: center;
+		margin-right: 15px;
+	}
+	
+	header > #bottom_nav > .etc{
+		width: 327px;
+		height: 54px;
+		line-height: 54px;
+		float: right;
+		border: 0px solid black;	
+	}
+	
+	header > #bottom_nav > .etc > .photo{
+		float: right;
+		width: 142px;
+		border: 0px solid red;
+		margin: 10px;
+	}
+	
+	header > #bottom_nav > .etc > .weather{
+		float: right;	
+		width: 160px;
+		border: 0px solid blue;
+		margin: 0px;
+	}
+	
+	header > #bottom_nav > .etc > .weather > img{
+		margin: 10px 0px;
+		float: left;	
+	}
+	
+	header > #bottom_nav > .etc > .weather > div {
+		position: relative;
+   		height: 54px;
+   		border: 0px red solid;
+	}
+	
+	header > #bottom_nav > .etc > .weather > div > p:NTH-CHILD(1){
+		font-size: 14px;
+ 	   	color: #878787;
+ 	   	height: 16px;
+ 	   	border: 0px solid orange;
+ 	   	width: 38px;
+    	display: inline;
+	}
+ 	   	
+	
+	header > #bottom_nav > .etc > .weather > div > p:NTH-CHILD(2){
+		font-size: 16px;
+ 	   	color: #878787;
+ 	   	border: 0px solid olive;
+ 	   	display: inline;
+	}
+	
+	   

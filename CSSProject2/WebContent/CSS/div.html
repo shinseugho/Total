@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<!--    외부 CSS: 파일로 제작
+			<link rel="stylesheet" href="css파일명">
+		내부 CSS
+			<head>
+				<style type="text/html">
+				</style>
+			</head>
+		INLINE CSS
+			<div style="">
+		
+		1. 내외부 css
+			가. 선택자(:Selector) Jquery, Jsoup
+				=tag: a, p, div ...
+					
+					tag명 {속성:값; 속성:값; ...}
+					속성은 미리 정의가 되어있다. 
+				
+				=ID명(중복이 없는 명칭): 한번만 사용이 가능하다.
+					
+					<div id="a b"> (X)
+					#ID명 {속성:값; 속성:값; ...}
+					
+				=Class명 : 중복이 있어도 가능하며, 여러개 사용이 가능하다.
+					
+					<div class id="a b c">
+					.class명 {속성:값; 속성:값; ...}
+					
+				=전체 
+				
+					*(모든태그)
+					*{속성:값; 속성:값; ...}
+				
+				=가상선택자
+					a: hover
+					h1:nth-child(2n)
+-->					
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+div{
+	width: 100px;
+	height: 100px;
+}
+#aa{
+	border: 5px solid green;
+}
+#bb{
+	border: 5px dotted green;
+}
+#cc{
+	border: 5px dashed green;
+}
+#dd{
+	border: 5px double green;
+}
+#ee{
+	border: 5px groove green;
+}
+#ff{
+	border: 5px ridge green;
+}
+#aaa{
+	padding: 20px;
+	border: 1px solid black;
+	/*
+		6pt   8px  0.5em 	50%
+		7pt   9px  0.55em 	55%
+		7.5pt 10px 0.625em 	62.5%
+		8pt   11px 0.7em 	70%
+		9pt   12px 0.75em 	75%
+	*/
+}
+</style>
+</head>
+<body>
+	<div id="aaa">Box Model</div>
+	<div id="aa"></div>
+	<div id="bb"></div>
+	<div id="cc"></div>
+	<div id="dd"></div>
+	<div id="ee"></div>
+	<div id="ff"></div>
+</body>
+</html>
